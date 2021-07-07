@@ -1,5 +1,8 @@
-package com.example.aisleassignment;
+package com.example.aisleassignment.service;
 
+import com.example.aisleassignment.models.PhoneNumberRequestModel;
+import com.example.aisleassignment.models.VerifyOtpRequestModel;
+import com.example.aisleassignment.models.VerifyOtpResponseModel;
 import com.example.aisleassignment.models.info.NotesInfoModel;
 
 import retrofit2.Call;

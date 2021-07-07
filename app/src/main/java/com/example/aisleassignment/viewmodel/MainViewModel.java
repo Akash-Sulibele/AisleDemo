@@ -3,8 +3,8 @@ package com.example.aisleassignment.viewmodel;
 import androidx.lifecycle.ViewModel;
 
 import com.example.aisleassignment.ApiCallbacks;
-import com.example.aisleassignment.PhoneNumberRequestModel;
-import com.example.aisleassignment.Service;
+import com.example.aisleassignment.models.PhoneNumberRequestModel;
+import com.example.aisleassignment.service.Service;
 
 public class MainViewModel extends ViewModel {
     public String countryCode = "";

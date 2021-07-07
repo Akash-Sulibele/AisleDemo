@@ -1,11 +1,10 @@
-package com.example.aisleassignment;
+package com.example.aisleassignment.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -14,11 +13,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.aisleassignment.ApiCallbacks;
+import com.example.aisleassignment.R;
 import com.example.aisleassignment.models.info.NotesInfoModel;
-import com.example.aisleassignment.viewmodel.MainViewModel;
 import com.example.aisleassignment.viewmodel.VerifyOtpViewModel;
 
-public class VerifyOtpActivity extends AppCompatActivity implements ApiCallbacks{
+public class VerifyOtpActivity extends AppCompatActivity implements ApiCallbacks {
 
     private TextView timerTv;
     private TextView phoneTv;

@@ -1,9 +1,9 @@
 
-package com.example.aisleassignment;
+package com.example.aisleassignment.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class OtpVerificationRequestModel {
+public class VerifyOtpRequestModel {
 
     @SerializedName("number")
     private String mNumber;

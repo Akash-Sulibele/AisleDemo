@@ -1,4 +1,4 @@
-package com.example.aisleassignment;
+package com.example.aisleassignment.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.aisleassignment.ApiCallbacks;
+import com.example.aisleassignment.R;
 import com.example.aisleassignment.models.info.NotesInfoModel;
 import com.example.aisleassignment.viewmodel.NotesViewModel;
 import com.squareup.picasso.Picasso;
